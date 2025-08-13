@@ -1,0 +1,50 @@
+# Day 1: Variables and Data Types - Notes
+
+## Topics Covered
+
+- Declaring and initializing variables
+- Data types: `int`, `float`, `str`, `bool`
+- Type conversion (casting)
+- Basic operations with variables
+
+## Example Questions & Notes
+
+1. **How to declare and initialize variables?**  
+   ```python
+   name = "Alice"
+   age = 25
+   height = 5.7
+   is_student = True
+   ```
+
+2. **What are the basic data types in Python?**  
+   - Integer: `int` (e.g., `10`)
+   - Floating point: `float` (e.g., `3.14`)
+   - String: `str` (e.g., `"hello"`)
+   - Boolean: `bool` (`True` or `False`)
+
+3. **How to check the type of a variable?**  
+   ```python
+   type(age)  # Output: <class 'int'>
+   ```
+
+4. **How to convert between data types?**  
+   ```python
+   age_str = str(age)      # int to str
+   height_int = int(height)  # float to int
+   ```
+
+5. **Basic operations with variables:**  
+   - Arithmetic: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+   - String concatenation: `+`
+   - Boolean logic: `and`, `or`, `not`
+
+6. **Printing variables:**  
+   ```python
+   print("Name:", name)
+   print(f"Age: {age}, Height: {height}, Student: {is_student}")
+   ```
+
+---
+
+Use these notes as a reference for Day 1 variable and data type exercises.

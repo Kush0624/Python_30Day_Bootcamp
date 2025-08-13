@@ -1,0 +1,52 @@
+# Day 2: Strings - Notes
+
+## Topics Covered
+
+- Declaring and initializing string variables
+- String concatenation
+- String formatting (f-strings, `.format()`, `%` operator)
+- String methods (e.g., `.upper()`, `.lower()`, `.strip()`, `.replace()`, `.find()`)
+- Slicing and indexing strings
+- Escape characters and raw strings
+
+## Example Questions & Notes
+
+1. **How to declare a string variable?**  
+   Use quotes (`' '` or `" "`):  
+   ```python
+   greeting = "Hello, World!"
+   ```
+
+2. **How to concatenate strings?**  
+   Use `+` operator or f-strings:  
+   ```python
+   full_name = first_name + " " + last_name
+   message = f"Hello, {name}!"
+   ```
+
+3. **How to format strings?**  
+   - f-strings: `f"Hello, {name}!"`
+   - `.format()`: `"Hello, {}!".format(name)`
+   - `%` operator: `"Hello, %s!" % name`
+
+4. **Common string methods:**  
+   - `.upper()`, `.lower()`
+   - `.strip()`, `.replace(old, new)`
+   - `.find(substring)`, `.count(substring)`
+
+5. **How to slice and index strings?**  
+   ```python
+   text = "Python"
+   first_letter = text[0]      # 'P'
+   last_three = text[-3:]      # 'hon'
+   ```
+
+6. **Escape characters:**  
+   - Newline: `\n`
+   - Tab: `\t`
+   - Quote: `\"` or `\'`
+   - Raw string: `r"Path\to\file"`
+
+---
+
+Use these notes as a reference for Day 2 string exercises.
