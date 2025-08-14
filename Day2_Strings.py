@@ -33,4 +33,19 @@ str="deep learning with python"
 name="Kushagra"
 age=22
 income=50000
-print(f"My name is {name}, I am {age} years old, and I earn ${income} per month. ")
+# print(f"My name is {name}, I am {age} years old, and I earn ${income} per month. ")
+
+
+# 🎯 Mini-Task
+
+# Write a Python script that:
+
+# Takes a sentence from the user.
+
+# Prints it in uppercase, lowercase, reverse order, and without spaces.
+
+sentence=input("Enter any sentence:")
+print(sentence.upper())
+print(sentence.lower())
+print(sentence[::-1])
+print(sentence.replace(" ",""))
